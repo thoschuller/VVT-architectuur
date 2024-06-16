@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Rapportage metingen</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Rapportage metingen</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-Representation"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-Representation" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-f1372a084240411da56284de97f20a63">
+																	<td><a href="../views/id-f1372a084240411da56284de97f20a63.html" target="view" title="ZIBs &amp; informatiestandaarden Rapportage metingen"> ZIBs &amp; informatiestandaarden Rapportage metingen </a></td>
+																	<td><span class="i18n-viewpoint-information_structure" /></td>
+																</tr><tr id="used-in-views-id-1f125a7d88174e2180d325e54e52e1b6">
+																	<td><a href="../views/id-1f125a7d88174e2180d325e54e52e1b6.html" target="view" title="ZIBs &amp; informatiestandaarden"> ZIBs &amp; informatiestandaarden </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-c9b6f9f29e3a4db9a8636f69b4cee7be">
+																	<td><a href="../views/id-c9b6f9f29e3a4db9a8636f69b4cee7be.html" target="view" title="Terugrapportage spoed door medewerker acute thuiszorg"> Terugrapportage spoed door medewerker acute thuiszorg </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-id-fb73b0b36f924b6aad703d07610ec987">
+																	<td><a href="../views/id-fb73b0b36f924b6aad703d07610ec987.html" target="view" title="Overlap BGZ - eOverdracht in ZIBs ANW"> Overlap BGZ - eOverdracht in ZIBs ANW </a></td>
+																	<td><span class="i18n-viewpoint-information_structure" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-79ec87b8e3f1430d953aa3559da2a849.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-b206c68898df434bae20463ab3114b85.html" target="element"> Bloeddruk</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b345da220d21465bb8d634fdbd7cf470.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-287e92fe929e45b48b7cb1f9d6d74ad6.html" target="element"> Lichaamsgewicht</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2b0db99f19e54cb09a389e4b311aba04.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-4f58bcc73fca46978ae9996833dac0d5.html" target="element"> Lichaamslengte</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-748f92032ae6431da9bc0aaf5fab7778.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-ebbc03b19eb54978a5baa594ea847710.html" target="element"> Lichaamstemperatuur</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ca909584d9c6431ba1c4ceae24bf6220.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-0531e7d19e124be0b192908dcbb88ede.html" target="element"> O2 Saturatie</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bdf4183dcbbc46c0b490b8d719fe1416.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-a9e18f211b0649388936ecbf6a8f465c.html" target="element"> Polsfrequentie</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e8ac6e78848d4985a0ad8beded13ad2e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-90795430f6db407da8e753b170232117.html" target="element"> Ademhaling</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-4e118d62f8c546428ace409f683a11ea.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-0fffb9cdaf624f208ae898c93f975ca4.html" target="element"> Hartfrequentie</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-29d90f823a5a47778d4b799731877660.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-1acd12a925a148b7b335c2cfc8f535fb.html" target="element"> Visus</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-1d824cb303b34b1ca872533d65481d8c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AggregationRelationship" /></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+											<td><a href="../elements/id-6ea9924463164a6ab61f98b8fde742f1.html" target="element"> Tekstuitslag</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-8d666ea0d9c14dbfa9a6884aa63d4b24.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-82ecc2cd40cd4752ab48488a42155914.html" target="element"> Rapporteren metingen</a></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-999811d924ff436fb0914237b9d99c80.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/id-34928acfdc5644b9bd09202afc21044e.html" target="element"> ECD</a></td>
+											<td><a href="../elements/id-975cd41321ee4e8e92f9cd8a37de15e7.html" target="element"> Rapportage metingen</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
