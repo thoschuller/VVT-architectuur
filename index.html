@@ -17,7 +17,6 @@
 	<link type="text/css" rel="stylesheet" href="css/i18n.css">
 	<script type="text/javascript" src="js/model.js"></script>
 	<script type="text/javascript" src="js/url-polyfill.min.js"></script>
-	
 </head>
 
 <body>
@@ -1441,14 +1440,5 @@
 		</div>
 	</div>
 	<!-- END HINT MODAL DIALOG -->
-	<footer>Generated on <time pubdate id="pubDate"></time></footer>
-	<script type="text/javascript">
-		var generated = new Date(document.lastModified);
-		var day = generated.getDate();
-		var month = generated.getMonth() + 1;
-		var year = generated.getFullYear();
-		var date = year + '-' + (month <= 9 ? '0' + month : month) + '-' + day;
-		document.getElementById("pubDate").setAttribute("datetime", date);
-	</script>
 </body>
 </html>
